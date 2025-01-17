@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		43390F4B2D39D95F004D7E37 /* TinfoilVerifier.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43390F442D39C4E8004D7E37 /* TinfoilVerifier.xcframework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		43E4AF0C2D39AC7B00DA1C5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +28,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43390F442D39C4E8004D7E37 /* TinfoilVerifier.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TinfoilVerifier.xcframework; sourceTree = "<group>"; };
 		43E4AEFB2D39AC7900DA1C5C /* SwiftVerifierExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftVerifierExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E4AF0B2D39AC7B00DA1C5C /* SwiftVerifierExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVerifierExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E4AF152D39AC7B00DA1C5C /* SwiftVerifierExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVerifierExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		43390F472D39CF7C004D7E37 /* Exceptions for "SwiftVerifierExample" folder in "SwiftVerifierExample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 43E4AEFA2D39AC7900DA1C5C /* SwiftVerifierExample */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		43E4AEFD2D39AC7900DA1C5C /* SwiftVerifierExample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				43390F472D39CF7C004D7E37 /* Exceptions for "SwiftVerifierExample" folder in "SwiftVerifierExample" target */,
+			);
 			path = SwiftVerifierExample;
 			sourceTree = "<group>";
 		};
@@ -52,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43390F4B2D39D95F004D7E37 /* TinfoilVerifier.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +98,7 @@
 				43E4AF0E2D39AC7B00DA1C5C /* SwiftVerifierExampleTests */,
 				43E4AF182D39AC7B00DA1C5C /* SwiftVerifierExampleUITests */,
 				43E4AEFC2D39AC7900DA1C5C /* Products */,
+				43390F442D39C4E8004D7E37 /* TinfoilVerifier.xcframework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -399,11 +419,14 @@
 				DEVELOPMENT_TEAM = 8KSH668LZT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftVerifierExample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tinfoil Verifier";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,11 +451,14 @@
 				DEVELOPMENT_TEAM = 8KSH668LZT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftVerifierExample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tinfoil Verifier";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
