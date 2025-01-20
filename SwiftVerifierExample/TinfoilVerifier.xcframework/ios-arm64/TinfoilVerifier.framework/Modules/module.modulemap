@@ -1,0 +1,8 @@
+framework module "TinfoilVerifier" {
+	header "ref.h"
+    header "Client.objc.h"
+    header "Universe.objc.h"
+    header "TinfoilVerifier.h"
+
+    export *
+}

@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		43390F4B2D39D95F004D7E37 /* TinfoilVerifier.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43390F442D39C4E8004D7E37 /* TinfoilVerifier.xcframework */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		43E4AF0C2D39AC7B00DA1C5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -28,10 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		43390F442D39C4E8004D7E37 /* TinfoilVerifier.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TinfoilVerifier.xcframework; sourceTree = "<group>"; };
 		43E4AEFB2D39AC7900DA1C5C /* SwiftVerifierExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftVerifierExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		43E4AF0B2D39AC7B00DA1C5C /* SwiftVerifierExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVerifierExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		43E4AF152D39AC7B00DA1C5C /* SwiftVerifierExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVerifierExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E4AF0B2D39AC7B00DA1C5C /* SwiftVerifierExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftVerifierExampleTests.xctest; path = "/Users/nate/Projects/tinfoil/verifier-swift-example/build/Debug-iphoneos/SwiftVerifierExample.app/PlugIns/SwiftVerifierExampleTests.xctest"; sourceTree = "<absolute>"; };
+		43E4AF152D39AC7B00DA1C5C /* SwiftVerifierExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftVerifierExampleUITests.xctest; path = "/Users/nate/Projects/tinfoil/verifier-swift-example/build/Debug-iphoneos/SwiftVerifierExampleUITests-Runner.app/PlugIns/SwiftVerifierExampleUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -53,16 +48,6 @@
 			path = SwiftVerifierExample;
 			sourceTree = "<group>";
 		};
-		43E4AF0E2D39AC7B00DA1C5C /* SwiftVerifierExampleTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftVerifierExampleTests;
-			sourceTree = "<group>";
-		};
-		43E4AF182D39AC7B00DA1C5C /* SwiftVerifierExampleUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftVerifierExampleUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43390F4B2D39D95F004D7E37 /* TinfoilVerifier.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,10 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				43E4AEFD2D39AC7900DA1C5C /* SwiftVerifierExample */,
-				43E4AF0E2D39AC7B00DA1C5C /* SwiftVerifierExampleTests */,
-				43E4AF182D39AC7B00DA1C5C /* SwiftVerifierExampleUITests */,
 				43E4AEFC2D39AC7900DA1C5C /* Products */,
-				43390F442D39C4E8004D7E37 /* TinfoilVerifier.xcframework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,8 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				43E4AEFB2D39AC7900DA1C5C /* SwiftVerifierExample.app */,
-				43E4AF0B2D39AC7B00DA1C5C /* SwiftVerifierExampleTests.xctest */,
-				43E4AF152D39AC7B00DA1C5C /* SwiftVerifierExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,9 +129,6 @@
 			dependencies = (
 				43E4AF0D2D39AC7B00DA1C5C /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				43E4AF0E2D39AC7B00DA1C5C /* SwiftVerifierExampleTests */,
-			);
 			name = SwiftVerifierExampleTests;
 			packageProductDependencies = (
 			);
@@ -172,9 +148,6 @@
 			);
 			dependencies = (
 				43E4AF172D39AC7B00DA1C5C /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				43E4AF182D39AC7B00DA1C5C /* SwiftVerifierExampleUITests */,
 			);
 			name = SwiftVerifierExampleUITests;
 			packageProductDependencies = (
@@ -431,7 +404,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = sh.tinfoil.SwiftVerifierExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -463,7 +436,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = sh.tinfoil.SwiftVerifierExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -476,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8KSH668LZT;
@@ -484,6 +458,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sh.tinfoil.SwiftVerifierExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -495,6 +470,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8KSH668LZT;
@@ -503,6 +479,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sh.tinfoil.SwiftVerifierExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
