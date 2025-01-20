@@ -6,27 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		43E4AF0C2D39AC7B00DA1C5C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 43E4AEF32D39AC7900DA1C5C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 43E4AEFA2D39AC7900DA1C5C;
-			remoteInfo = SwiftVerifierExample;
-		};
-		43E4AF162D39AC7B00DA1C5C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 43E4AEF32D39AC7900DA1C5C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 43E4AEFA2D39AC7900DA1C5C;
-			remoteInfo = SwiftVerifierExample;
-		};
-/* End PBXContainerItemProxy section */
+/* Begin PBXBuildFile section */
+		43BF56352D3E19A40032DB86 /* TinfoilVerifier in Frameworks */ = {isa = PBXBuildFile; productRef = 43BF56342D3E19A40032DB86 /* TinfoilVerifier */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		43E4AEFB2D39AC7900DA1C5C /* SwiftVerifierExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftVerifierExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		43E4AF0B2D39AC7B00DA1C5C /* SwiftVerifierExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftVerifierExampleTests.xctest; path = "/Users/nate/Projects/tinfoil/verifier-swift-example/build/Debug-iphoneos/SwiftVerifierExample.app/PlugIns/SwiftVerifierExampleTests.xctest"; sourceTree = "<absolute>"; };
-		43E4AF152D39AC7B00DA1C5C /* SwiftVerifierExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SwiftVerifierExampleUITests.xctest; path = "/Users/nate/Projects/tinfoil/verifier-swift-example/build/Debug-iphoneos/SwiftVerifierExampleUITests-Runner.app/PlugIns/SwiftVerifierExampleUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -55,20 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43E4AF082D39AC7B00DA1C5C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43E4AF122D39AC7B00DA1C5C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				43BF56352D3E19A40032DB86 /* TinfoilVerifier in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,50 +83,11 @@
 			);
 			name = SwiftVerifierExample;
 			packageProductDependencies = (
+				43BF56342D3E19A40032DB86 /* TinfoilVerifier */,
 			);
 			productName = SwiftVerifierExample;
 			productReference = 43E4AEFB2D39AC7900DA1C5C /* SwiftVerifierExample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		43E4AF0A2D39AC7B00DA1C5C /* SwiftVerifierExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 43E4AF222D39AC7B00DA1C5C /* Build configuration list for PBXNativeTarget "SwiftVerifierExampleTests" */;
-			buildPhases = (
-				43E4AF072D39AC7B00DA1C5C /* Sources */,
-				43E4AF082D39AC7B00DA1C5C /* Frameworks */,
-				43E4AF092D39AC7B00DA1C5C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				43E4AF0D2D39AC7B00DA1C5C /* PBXTargetDependency */,
-			);
-			name = SwiftVerifierExampleTests;
-			packageProductDependencies = (
-			);
-			productName = SwiftVerifierExampleTests;
-			productReference = 43E4AF0B2D39AC7B00DA1C5C /* SwiftVerifierExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		43E4AF142D39AC7B00DA1C5C /* SwiftVerifierExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 43E4AF252D39AC7B00DA1C5C /* Build configuration list for PBXNativeTarget "SwiftVerifierExampleUITests" */;
-			buildPhases = (
-				43E4AF112D39AC7B00DA1C5C /* Sources */,
-				43E4AF122D39AC7B00DA1C5C /* Frameworks */,
-				43E4AF132D39AC7B00DA1C5C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				43E4AF172D39AC7B00DA1C5C /* PBXTargetDependency */,
-			);
-			name = SwiftVerifierExampleUITests;
-			packageProductDependencies = (
-			);
-			productName = SwiftVerifierExampleUITests;
-			productReference = 43E4AF152D39AC7B00DA1C5C /* SwiftVerifierExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -169,14 +102,6 @@
 					43E4AEFA2D39AC7900DA1C5C = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					43E4AF0A2D39AC7B00DA1C5C = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 43E4AEFA2D39AC7900DA1C5C;
-					};
-					43E4AF142D39AC7B00DA1C5C = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 43E4AEFA2D39AC7900DA1C5C;
-					};
 				};
 			};
 			buildConfigurationList = 43E4AEF62D39AC7900DA1C5C /* Build configuration list for PBXProject "SwiftVerifierExample" */;
@@ -188,34 +113,21 @@
 			);
 			mainGroup = 43E4AEF22D39AC7900DA1C5C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				43BF56332D3E19A40032DB86 /* XCRemoteSwiftPackageReference "verifier-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 43E4AEFC2D39AC7900DA1C5C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				43E4AEFA2D39AC7900DA1C5C /* SwiftVerifierExample */,
-				43E4AF0A2D39AC7B00DA1C5C /* SwiftVerifierExampleTests */,
-				43E4AF142D39AC7B00DA1C5C /* SwiftVerifierExampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		43E4AEF92D39AC7900DA1C5C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43E4AF092D39AC7B00DA1C5C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43E4AF132D39AC7B00DA1C5C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,34 +144,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43E4AF072D39AC7B00DA1C5C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43E4AF112D39AC7B00DA1C5C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		43E4AF0D2D39AC7B00DA1C5C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 43E4AEFA2D39AC7900DA1C5C /* SwiftVerifierExample */;
-			targetProxy = 43E4AF0C2D39AC7B00DA1C5C /* PBXContainerItemProxy */;
-		};
-		43E4AF172D39AC7B00DA1C5C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 43E4AEFA2D39AC7900DA1C5C /* SwiftVerifierExample */;
-			targetProxy = 43E4AF162D39AC7B00DA1C5C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		43E4AF1D2D39AC7B00DA1C5C /* Debug */ = {
@@ -445,82 +330,6 @@
 			};
 			name = Release;
 		};
-		43E4AF232D39AC7B00DA1C5C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8KSH668LZT;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sh.tinfoil.SwiftVerifierExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftVerifierExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftVerifierExample";
-			};
-			name = Debug;
-		};
-		43E4AF242D39AC7B00DA1C5C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8KSH668LZT;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sh.tinfoil.SwiftVerifierExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftVerifierExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftVerifierExample";
-			};
-			name = Release;
-		};
-		43E4AF262D39AC7B00DA1C5C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8KSH668LZT;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sh.tinfoil.SwiftVerifierExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftVerifierExample;
-			};
-			name = Debug;
-		};
-		43E4AF272D39AC7B00DA1C5C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8KSH668LZT;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sh.tinfoil.SwiftVerifierExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SwiftVerifierExample;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -542,25 +351,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43E4AF222D39AC7B00DA1C5C /* Build configuration list for PBXNativeTarget "SwiftVerifierExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				43E4AF232D39AC7B00DA1C5C /* Debug */,
-				43E4AF242D39AC7B00DA1C5C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		43E4AF252D39AC7B00DA1C5C /* Build configuration list for PBXNativeTarget "SwiftVerifierExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				43E4AF262D39AC7B00DA1C5C /* Debug */,
-				43E4AF272D39AC7B00DA1C5C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		43BF56332D3E19A40032DB86 /* XCRemoteSwiftPackageReference "verifier-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tinfoilanalytics/verifier-swift";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		43BF56342D3E19A40032DB86 /* TinfoilVerifier */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43BF56332D3E19A40032DB86 /* XCRemoteSwiftPackageReference "verifier-swift" */;
+			productName = TinfoilVerifier;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 43E4AEF32D39AC7900DA1C5C /* Project object */;
 }

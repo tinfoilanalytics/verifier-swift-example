@@ -1,0 +1,15 @@
+{
+  "originHash" : "fe17dcf6bf745dc1332b15375fb396546afbbced4fa40ab726e20d43ee6507b0",
+  "pins" : [
+    {
+      "identity" : "verifier-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tinfoilanalytics/verifier-swift",
+      "state" : {
+        "revision" : "2c83428b9362860e66eff1b034710cc3f0854382",
+        "version" : "0.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
